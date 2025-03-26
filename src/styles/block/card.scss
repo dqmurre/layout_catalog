@@ -7,6 +7,15 @@
   background-size: 160px 134px;
   background-position: left 19px top 32px;
 
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:hover .card__title {
+    color: #34568b;
+    transition: transform 300ms ease-in-out;
+  }
+
   &__information {
     color: #060b35;
     width: 166px;
